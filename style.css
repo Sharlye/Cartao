@@ -37,7 +37,7 @@
     color: rgb(88 199 250 / 0%);
   }
   
-  .card::before {
+  .card:before {
     content: "";
     width: 104%;
     height: 102%;
@@ -52,7 +52,7 @@
       animation: spin 2.5s linear infinite;
   }
   
-  .card::after {
+  .card:after {
     position: absolute;
     content: "";
     top: calc(var(--card-height) / 6);
